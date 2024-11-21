@@ -1,0 +1,65 @@
+/* Footer Styling */
+.footer {
+    position: fixed; /* Change to fixed so it stays at the bottom */
+    bottom: 0; /* Align it to the bottom of the page */
+    left: 0;
+    width: 100%; /* Ensure the footer spans the entire width */
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+    font-size: 14px;
+    z-index: 100; /* Ensure it's above other content */
+    overflow: hidden;
+}
+
+.footer p {
+    z-index: 2;
+    position: relative;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+/* Gradient Background Effect */
+.footer-bg {
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(90deg, #1363df, #47b5ff, #1363df);
+    animation: slide 6s infinite linear;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+/* Animate the gradient */
+@keyframes slide {
+    from {
+        background-position: 0% 50%;
+    }
+    to {
+        background-position: 100% 50%;
+    }
+}
+
+/* Heart Styling */
+.footer .heart {
+    color: #ff4d6d;
+    animation: pulse 1.5s infinite;
+}
+
+/* Heart Pulse Animation */
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+/* Highlight Developer's Name */
+.footer strong {
+    color: #fdfdfd;
+}
