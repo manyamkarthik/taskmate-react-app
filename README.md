@@ -64,7 +64,7 @@ Open a pull request
 Karthik Manyam
 
 GitHub: https://github.com/manyamkarthik/
-LinkedIn: https://www.linkedin.com/in/karthik-manyam/
+LinkedIn: https://www.linkedin.com/in/hari-karthik-manyam/
 📜 License
 This project is licensed under the MIT License - feel free to use, modify, and distribute it.
 
